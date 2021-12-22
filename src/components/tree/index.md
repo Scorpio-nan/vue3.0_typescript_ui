@@ -7,8 +7,6 @@ contributors: true
 
 # Tree
 
-贡献者: 元
-
 <demo src="./demo/base.vue"
   language="vue"
   title="基本"

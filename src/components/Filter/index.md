@@ -34,4 +34,3 @@ editLink: true
 | filterContent \| default | `(item: T, index: number): VNode` | 筛选内容部分   |
 | filterButton             | `(item: T, index: number): VNode` | 筛选器按钮部分 |
 
-贡献者: 侯蓉

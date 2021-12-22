@@ -20,4 +20,3 @@ editLink: true
 | mode   | `vertical | grid`   |        | `vertical` | 排列方式 |
 | gutter | `number   | string` |        |            | 间隔     |
 
-贡献者: 华清峰

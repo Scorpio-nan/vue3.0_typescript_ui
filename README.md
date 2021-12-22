@@ -3,8 +3,6 @@ home: true
 contributors: true
 ---
 
-# 泽怡 PC 端组件库
-
 ## 底层类库
 
 - [vue3](https://github.com/vuejs/vue-next)
@@ -49,7 +47,7 @@ contributors: true
 6. 尽可能的少用 any 类型，props 禁止 any，如有必要请用 `unknown` 替代
 7. 禁止 props 类型为 `vnode` / `JSX.Element` 类型
 8. demo 代码用 `template + setup` 形式书写
-9. demo 中必须写成 `import { XXX} from 'med-components-antd'`;
+9. demo 中必须写成 `import { XXX } from 'med-components-antd'`;
 10. 组件要尽可能的解耦，如果接收的数据为数组类型的，尽量底层有一个单个数据操作的子组件。例如 table 组件可以拆分成 table 和 table-row
 11. 使用 `BEM` 命名, utils 中有 工具类
 12. 使用 `vue-demi` 替代 `vue` 导入

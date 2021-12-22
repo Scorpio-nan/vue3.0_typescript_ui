@@ -7,7 +7,6 @@ contributors: true
 
 # DemoComponent
 
-贡献者: 华清峰
 
 这是一个 demo 组件,用来演示如何开发一个组件,可以复制本组件目录然后改成你的组件名字
 
