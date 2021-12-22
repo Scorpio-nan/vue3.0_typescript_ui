@@ -1,0 +1,9 @@
+.demo-slot input,
+.demo-slot button,
+.demo-slot input:not(.ant-*),
+.demo-slot button:not(.ant-*) {
+  all: revert;
+}
+.demo-slot *::-webkit-scrollbar-thumb {
+  all: revert;
+}

@@ -1,0 +1,21 @@
+.med-list {
+  &--list {
+    display: flex;
+    &-grid {
+      flex-wrap: wrap;
+      // display: grid;
+      // grid-template-columns: repeat(auto-fill, auto);
+      // gap: 10px 10px;
+      // justify-content: space-between;
+    }
+    &-horizontal {
+      overflow-x: auto;
+      .med-list--item {
+        flex: 0 0 auto;
+      }
+    }
+    &-vertical {
+      flex-direction: column;
+    }
+  }
+}
